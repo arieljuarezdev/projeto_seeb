@@ -23,7 +23,7 @@ session_start();
     }
 </style>
 
-<body>
+<body onload="dadosUsuario()">
     <div class="header p-3 m-2">
         <h2>Painel - usuário Seeb</h2>
     </div>
@@ -31,13 +31,13 @@ session_start();
     <div class=" text-center border p-2 subheader ">
         <div class="row justify-content-center">
             <div class="col-2">
-                <a href="Cadastro">Cadastro</a>
+                <a class="subheader" href="Cadastro">Cadastro</a>
             </div>
             <div class="col-2">
-                <a href="noticias">Notícias</a>
+                <a class="subheader" href="noticias">Notícias</a>
             </div>
             <div class="col-2">
-                <a href="convenios">Convênios</a>
+                <a class="subheader" href="convenios">Convênios</a>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@ session_start();
                     <input type="text" class="form-control" name="" id=""></input>
                 </div>
 
-                <div class="input-group mb-3 mb-2">
+                <div class="input-group mb-3 mb-2 ms-3">
                     <label class="input-group-text" for="">Filiação:</label>
                     <input type="text" class="form-control" name="" id=""></input>
                 </div>
@@ -198,6 +198,7 @@ session_start();
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <script src="./scripts/inputCep.js"></script>
+        <script src="./scripts/dados_usuario.js"></script>
 </body>
 
 </html>
