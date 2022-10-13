@@ -47,7 +47,7 @@ session_start();
                     <div class="container-sm shadow p-3 mb-5 bg-body rounded mt-3 forms-user-data">
                         <form>
 
-                            <h4 class="p-3 mb-2">Cadastro de Sindicalizado</h4>
+                            <h4 class="p-3 mb-2">Cadastro do usuário</h4>
 
                             <div class="d-flex">
                                 <div class="input-group mb-3 mb-2">
