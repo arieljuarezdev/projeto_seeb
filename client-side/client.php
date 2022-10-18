@@ -33,6 +33,9 @@ session_start();
             <div class="col-2">
                 <a class="subheader" style="text-decoration: none; color: black" href="convenios">Convênios</a>
             </div>
+            <div class="col-2">
+                <a class="subheader" style="text-decoration: none; color: black" href="../index.html">Sair</a>
+            </div>
         </div>
     </div>
 

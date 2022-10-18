@@ -43,6 +43,9 @@ session_start();
             <div class="col-2 btn ">
                 <a href="convenios" style="text-decoration: none; color: black">Financeiro</a>
             </div>
+            <div class="col-2 btn ">
+                <a href="../index_admin.html" style="text-decoration: none; color: black">Sair</a>
+            </div>
         </div>
     </div>
 
